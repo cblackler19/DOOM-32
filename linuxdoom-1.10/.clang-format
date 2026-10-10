@@ -1,0 +1,27 @@
+---
+# fallback
+BasedOnStyle:               LLVM
+
+# force line break after return type
+AlwaysBreakAfterReturnType: AllDefinitions
+
+# enforce allman style braces
+BreakBeforeBraces:          Custom
+BraceWrapping:
+  AfterCaseLabel:           true
+  AfterClass:               true
+  AfterControlStatement:    Always
+  AfterEnum:                true
+  AfterFunction:            true
+  AfterNamespace:           true
+  AfterObjCDeclaration:     true
+  AfterStruct:              true
+  AfterUnion:               true
+  BeforeCatch:              true
+  BeforeElse:               true
+  IndentBraces:             false
+
+IndentWidth:                4
+TabWidth:                   4
+UseTab:                     Never
+...
