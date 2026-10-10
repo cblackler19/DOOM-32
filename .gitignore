@@ -1,0 +1,10 @@
+# objects and executables
+*.o
+*.obj
+*.exe
+
+# doom files
+*.wad
+*.WAD
+*.dsg
+*.DSG
